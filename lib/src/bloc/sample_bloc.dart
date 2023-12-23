@@ -2,7 +2,7 @@ import 'package:bloc/bloc.dart';
 
 class SampleBloc extends Bloc<SampleEvent, int> {
   SampleBloc() : super(0) {
-    print('init Samplebloc');
+    print('init ebloc');
     on<SampleEvent>((event, emit) {
       print('Event bloc');
     });
